@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>영어 랜덤 퀴즈</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/Dropdown/dropdown.css">
+</head>
+
+<body>
+  <div id="container">
+    <h1 id="kindTitle">문제</h1>
+    <div id="question"></div>
+    <input type="text" id="userAnswer" placeholder="뜻을 입력하세요">
+    <button id="btn_next_word" onclick="runNextPage()">다음 단어</button>
+    <button id="btn_check_answer" onclick="runCheckAnswer()">정답 확인</button>
+    <p>시도횟수:<span id="word_try_num"></span></p>
+    <a href="#" id="p_reference" onclick="reference()">가이드</a> / <a href="#" id="p_reference" onclick="changeKind()">문제
+      바꾸기</a> / <!--[Dropdown Start] --> <a onclick="runInsertIgnore()" href="#">해당 내용 제외하기</a>/
+    <div id="dropdown-container">
+      <div id="dropdown-button">더보기</div> <!-- 세 점 버튼 -->
+      <div id="dropdown-menu">
+        <!-- 드롭다운 메뉴 항목들 -->
+        <a onclick="runInsertIgnore()" href="#">해당 내용 제외하기</a>
+        <a href="#">제외된 목록</a>
+      </div>
+    </div>
+    <!--[Dropdown End] -->
+    <div id="result"></div>
+  </div>
+
+  <!-- [data] -->
+  <script src="js/Data/data_words.js"></script>
+  <script src="js/Data/data_interprets.js"></script>
+  <script src="js/Data/data_proposition.js"></script>
+  <script src="js/Data/data_past.js"></script>
+  <script src="js/Data/data_pago_lc.js"></script>
+  <script src="js/Data/data_pago_rc.js"></script>
+
+  <script src="js/global_var.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/guide.js"></script>
+  <script src="js/run_function.js"></script>
+  <script src="js/Dropdown/dropdown.js"></script>
+  <script src="js/shortcut_key.js"></script>
+</body>
+
+</html>
