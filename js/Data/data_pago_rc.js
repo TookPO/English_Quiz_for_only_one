@@ -308,6 +308,9 @@ var pago_rc = [
   { question: "detailed", answer: "세분화된" },
   { question: "attached", answer: "첨부된" },
 
+  // 11일 차
+  
+  // { question: "", answer: "" },
 
   // + 숙제 문제집
   { question: "significance", answer: "중요성" },
