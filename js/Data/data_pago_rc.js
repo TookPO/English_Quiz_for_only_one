@@ -316,6 +316,11 @@ var pago_rc = [
   { question: "call for + O", answer: "~을 요청하다" },
   { question: "to date", answer: "지금까지" },
   //{ question: "be said toV", answer: "~라 하더라" },
+  { question: "spend + (시간/돈) + (in) + V-ing", answer: "(시간/돈)을 들여 V-ing하다" },
+  { question: "be committed to + (-ing/toV)", answer: "~에 헌신하다, ~에 전념하다" },
+  { question: "be dedicated to + (-ing/toV)", answer: "~에 헌신하다, ~에 전념하다" },
+  { question: "be devoted to + (-ing/toV)", answer: "~에 헌신하다, ~에 전념하다" },
+  { question: "allow + O + toV", answer: "O가 toV하도록 돕다" },
 
   // { question: "", answer: "" },
 
