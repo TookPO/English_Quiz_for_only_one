@@ -272,7 +272,7 @@ var pago_lc = [
   { question: "go into effect", answer: "영향을 끼치다" },
 
   // 11일 차
-  { question: "rather", answer: "오히려" },
+  { question: "rather", answer: "다소" },
   { question: "entrepreneur", answer: "기업가" },
   { question: "coworker", answer: "동료" },
   { question: "availability", answer: "이용 가능성" },

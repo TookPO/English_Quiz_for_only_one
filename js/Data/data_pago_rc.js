@@ -307,9 +307,14 @@ var pago_rc = [
   { question: "stand out", answer: "뛰어나다, 두드러지다" },
   { question: "detailed", answer: "세분화된" },
   { question: "attached", answer: "첨부된" },
-
+ 
   // 11일 차
   { question: "come up with", answer: "~을 생각해내다, 내어내다, 도출하다" },
+  { question: "order + O + toV", answer: "~에게 ~할 것을 주문, 요청하다" },
+  { question: "for", answer: "~에 있어서, ~을 위하여" },
+  { question: "ask for + O", answer: "~을 요청하다" },
+  { question: "call for + O", answer: "~을 요청하다" },
+  { question: "to date", answer: "지금까지" },
 
   // { question: "", answer: "" },
 
