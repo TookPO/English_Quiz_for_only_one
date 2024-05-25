@@ -315,7 +315,7 @@ var pago_rc = [
   { question: "ask for + O", answer: "~을 요청하다" },
   { question: "call for + O", answer: "~을 요청하다" },
   { question: "to date", answer: "지금까지" },
-  { question: "be said toV", answer: "~라 하더라" },
+  //{ question: "be said toV", answer: "~라 하더라" },
 
   // { question: "", answer: "" },
 
