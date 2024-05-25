@@ -309,7 +309,8 @@ var pago_rc = [
   { question: "attached", answer: "첨부된" },
 
   // 11일 차
-  
+  { question: "come up with", answer: "~을 생각해내다, 내어내다, 도출하다" },
+
   // { question: "", answer: "" },
 
   // + 숙제 문제집
