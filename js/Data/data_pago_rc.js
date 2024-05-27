@@ -322,6 +322,27 @@ var pago_rc = [
   { question: "be devoted to + (-ing/toV)", answer: "~에 헌신하다, ~에 전념하다" },
   { question: "allow + O + toV", answer: "O가 toV하도록 돕다" },
 
+  // 12일 차
+  { question: "prior to + N", answer: "~전에" },
+  { question: "following + N", answer: "~전에" },
+  { question: "within 시간", answer: "~후에" },
+  { question: "in 시간", answer: "~후에" },
+  { question: "for 시간", answer: "~동안에, ~걸려서" },
+  { question: "over 시간", answer: "~동안에, ~걸려서" },
+  { question: "beside", answer: "뿐만아니라" },
+  { question: "in addition to N", answer: "뿐만아니라" },
+  { question: "under + 위치, 상황, 조건", answer: "~하에" },
+  { question: "by 교통수단", answer: "~을 타고서" },
+  { question: "of", answer: "~의, ~에 대해서, 으로부터, ~중에서" },
+  { question: "out of", answer: "~없이, ~에서부터 밖, 밖으로" },
+  { question: "(전) as + N", answer: "~로서" },
+  { question: "(접) as S V", answer: "~할 때, ~때문에, ~처럼, ~함에 따라, ~하는 동안에" },
+  { question: "proper", answer: "적절한, 해당하는" },
+  { question: "through", answer: "(+장소)~를 지나서, (+수단, 방법)~를 통해서" },
+  { question: "via", answer: "~를 통해서" },
+  { question: "regarding", answer: "~에 관해" },
+  { question: "concerning", answer: "~에 관해" },
+
   // { question: "", answer: "" },
 
   // + 숙제 문제집
