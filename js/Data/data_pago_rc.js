@@ -342,6 +342,8 @@ var pago_rc = [
   { question: "via", answer: "~를 통해서" },
   { question: "regarding", answer: "~에 관해" },
   { question: "concerning", answer: "~에 관해" },
+  { question: "through(out)", answer: "(+시간)~내내, ~온종일, (+장소)~전역에, ~도처에" },
+  { question: "among", answer: "~사이에" },
 
   // { question: "", answer: "" },
 
