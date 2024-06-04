@@ -108,6 +108,9 @@ var proposition = [
   { question: "reusability", answer: "재사용성" },
   { question: "fashion", answer: "방법, 방식" },
   { question: "while", answer: "(명)잠깐, 잠시" },
+
+  { question: "turn over", answer: "~을 생각하다, 숙고하다/ 뒤집히다" },
+  { question: "implementation defined", answer: "각각의 구현 방법에 따라, 어떤 행동 방식(behavior)이 결정될 수 있고, 그에 따라 문서화되어 있다" },
   // { question: "", answer: "" },
 ];
 
