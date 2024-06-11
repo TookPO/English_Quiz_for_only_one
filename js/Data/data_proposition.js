@@ -111,7 +111,13 @@ var proposition = [
 
   { question: "turn over", answer: "~을 생각하다, 숙고하다/ 뒤집히다" },
   { question: "implementation defined", answer: "각각의 구현 방법에 따라, 어떤 행동 방식(behavior)이 결정될 수 있고, 그에 따라 문서화되어 있다" },
+  { question: "willingness", answer: "기꺼이 하는 마음" },
+
+  { question: "clue", answer: "단서" },
+  { question: "probe", answer: "엄밀히 조사하다" },
   // { question: "", answer: "" },
 ];
 
-// -------------------------- 전공영어 end -------------------------- 
+// -------------------------- 전공영어 end --------------------------
+
+// [오류 해결] git branch --set-upstream-to=remote/main main
