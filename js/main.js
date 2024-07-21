@@ -20,6 +20,7 @@ function chageHtmlTitle(kindName) {
   document.getElementById('kindTitle').innerHTML = kindName;
 }
 
+// *4. '문제 바꾸기'버튼 시 표기하기 위해 내용 추가 + HTML에 표기할 문제명 추가
 function changeKind() { // 문제내는 종류를 바꿈
   var kindName = "";
   switch (kindNum + 1) {
@@ -57,6 +58,12 @@ function changeKind() { // 문제내는 종류를 바꿈
       kind = PAGO_RC_CODE;
       kindNum = PAGO_RC_NUM;
       kindName = "PAGO RC";
+      break;
+
+    case 7:
+      kind = SPEAKING_365_CODE;
+      kindNum = SPEAKING_365_NUM;
+      kindName = "365 Speaking"
       break;
 
     default:

@@ -15,6 +15,7 @@ function runNextPage() { // [랜덤문제 실행] 영단어냐 해석이냐
   showNextPage(contentArrMap.get(kind));
 }
 
+// *5. 정답을 추가
 function runCheckAnswer() { // 어떤 종류의 문제를 맞출것인가
   if (kind == "word") {
     checkAnswer(words);
@@ -28,6 +29,8 @@ function runCheckAnswer() { // 어떤 종류의 문제를 맞출것인가
     checkAnswer(pago_lc);
   }else if (kind == PAGO_RC_CODE){
     checkAnswer(pago_rc);
+  }else if(kind == SPEAKING_365_CODE){
+    checkAnswer(speaking_365);
   }
 }
 

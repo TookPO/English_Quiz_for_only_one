@@ -1,4 +1,5 @@
 var past = [
+  { question: "비움", answer: "" },
   /*   { question: "awake(깨다)", answer: "awoke" },
     { question: "beat(때리다)", answer: "beat" },
     { question: "become(~이 되다.)", answer: "became" },
